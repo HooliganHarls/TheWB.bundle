@@ -4,30 +4,11 @@
 			initialState="playing"
 			version="1.0">
 	
-
-	
 	<crop x="0" y="0" width="640" height="380" />
-	
-	<seekbar type="simple">
-		<start x="61" y="388" />
-		<end   x="391" y="388" />
-		<played>
-				<color rgb="666666" />
-		</played>
-	</seekbar>
 	
 	<!-- PLAYING -->
 	<state name="playing">
-		<event>
-			<condition>
-				<command name="pause" />
-			</condition>
-			<action>
-				<click x="32" y="334" />
-				<goto state="paused" />
-			</action>
-		</event>
-		
+    		
 		<!-- Video ends -->
 		<event>
 			<condition>
@@ -35,19 +16,6 @@
 			</condition>
 			<action>
 				<goto state="end" />
-			</action>
-		</event>
-	</state>
-	
-	<!-- PAUSED -->
-	<state name="paused">
-		<event>
-			<condition>
-				<command name="play" />
-			</condition>
-			<action>
-				<click x="32" y="334" />
-				<goto state="playing" />
 			</action>
 		</event>
 	</state>
