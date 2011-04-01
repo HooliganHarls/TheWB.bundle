@@ -19,12 +19,14 @@
 	<key>PlexClientPlatforms</key>
 	<string>MacOSX</string>
 	<key>PlexFrameworkVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>PlexMediaContainer</key>
 	<string>Flash</string>
 	<key>PlexPluginDebug</key>
 	<string>0</string>
 	<key>PlexPluginMode</key>
 	<string>AlwaysOn</string>
+    <key>PlexPluginDevMode</key>
+    <string>1</string>
 </dict>
 </plist>

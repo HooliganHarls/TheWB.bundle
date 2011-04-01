@@ -1,7 +1,4 @@
 import re, string, datetime
-from PMS import *
-from PMS.Objects import *
-from PMS.Shortcuts import *
 
 TheWB_PLUGIN_PREFIX   = "/video/TheWB"
 
